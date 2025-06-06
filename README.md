@@ -11,8 +11,29 @@ A data analytics project focused on HR metrics, predictive modeling, and dashboa
 - **Reports**: Detailed reports summarizing findings and insights.
 
 ## 📁 Folder Structure
-hr-analytics-insights/ │ ├── data/ # Sample or synthetic datasets │ └── sample_hr_data.csv ├── notebooks/ # Jupyter notebooks for EDA and modeling │ └── 01_data_cleaning.ipynb ├── scripts/ # Python scripts for automation or pipelines │ ├── data_cleaning.py │ ├── train_model.py │ └── utils.py ├── dashboards/ # Power BI dashboards │ ├── hr_dashboard.pbix │ └── dashboard_notes.md ├── reports/ # Summary reports │ ├── summary_report.md │ └── presentation.pptx ├── .gitignore # Ignore unnecessary files ├── LICENSE # Project license ├── README.md # Project overview and instructions └── requirements.txt # Python dependencies
 
+```
+hr-analytics-insights/
+│
+├── data/                   # Sample or synthetic datasets
+│   └── sample_hr_data.csv
+├── notebooks/              # Jupyter notebooks for EDA and modeling
+│   └── 01_data_cleaning.ipynb
+├── scripts/                # Python scripts for automation or pipelines
+│   ├── data_cleaning.py
+│   ├── train_model.py
+│   └── utils.py
+├── dashboards/             # Power BI dashboards
+│   ├── hr_dashboard.pbix
+│   └── dashboard_notes.md
+├── reports/                # Summary reports
+│   ├── summary_report.md
+│   └── presentation.pptx
+├── .gitignore              # Ignore unnecessary files
+├── LICENSE                 # Project license
+├── README.md               # Project overview and instructions
+└── requirements.txt        # Python dependencies
+```
 
 ## 🛠️ Setup Instructions
 
@@ -20,5 +41,29 @@ hr-analytics-insights/ │ ├── data/ # Sample or synthetic datasets │ �
    ```bash
    git clone https://github.com/YOUR_USERNAME/hr-analytics-insights.git
    cd hr-analytics-insights
+   ```
+
+2. Create a virtual environment and activate it:
+   ```bash
    python -m venv venv
-source venv/bin/activate  # On Windows: venv\\Scripts\\activate
+   source venv/bin/activate  # On Windows: venv\\Scripts\\activate
+   ```
+
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Launch Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+
+## 🧰 Technologies Used
+
+- Python
+- Jupyter Notebook
+- Pandas, NumPy, Scikit-learn
+- Matplotlib, Seaborn
+- Power BI
+- Git & GitHub
