@@ -14,23 +14,7 @@ A data analytics project focused on HR metrics, predictive modeling, and dashboa
 ## 📁 Folder Structure
 
 ```
-hr-analytics-insights/
-│
-├── data/                   # Sample or synthetic datasets
-│   └── README.md
-├── notebooks/              # Jupyter notebooks for EDA and modeling
-│   └── 01_data_cleaning.ipynb
-├── scripts/                # Python scripts for automation or pipelines
-│   └── data_cleaning.py
-├── dashboards/             # Power BI dashboards
-│   └── hr_dashboard.pbix
-├── reports/                # Summary reports
-│   └── summary_report.md
-├── .gitignore              # Ignore unnecessary files
-├── LICENSE                 # Project license
-├── README.md               # Project overview and instructions
-└── requirements.txt        # Python dependencies
-```
+#hr-analytics-insights#/
 📁 data/
 Purpose: Store raw or processed datasets.
 What to include:
