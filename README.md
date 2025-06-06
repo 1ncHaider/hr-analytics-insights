@@ -14,7 +14,7 @@ A data analytics project focused on HR metrics, predictive modeling, and dashboa
 ## 📁 Folder Structure
 
 ```
-#hr-analytics-insights#/
+hr-analytics-insights/
 📁 data/
 Purpose: Store raw or processed datasets.
 What to include:
